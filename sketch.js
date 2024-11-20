@@ -12,26 +12,26 @@ let firstImageSelection = 0;
 
 function preload() {
   //All images, fonts, and sounds being called
-  groveOld = loadImage("/Images/Grove Street.png");
-  groveNew = loadImage("/Images/Grove Street Modern.png");
-  broomeOld = loadImage("/Images/Broome St.png");
-  broomeNew = loadImage("/Images/Broome St Modern.png");
-  barAndGrillOld = loadImage("/Images/Bar and Grill.png");
-  barAndGrillNew = loadImage("/Images/sput ready.png");
-  eastOld = loadImage("/Images/62 East.png");
-  eastNew = loadImage("/Images/62 East Modern.png");
-  song = loadSound("/Music/song 2.mp3");
-  oldBack = loadImage("/Images/old background.png");
-  newBack = loadImage("/Images/new background.png");
-  fontUsed = loadFont("/Fonts/basker.ttf");
-  fontUsedStatement = loadFont("/Fonts/Bodoni.ttf");
-  valOld = loadImage("/Images/valentine old.png");
-  valNew = loadImage("/Images/valentine new.png");
+  groveOld = loadImage("./Images/Grove Street.png");
+  groveNew = loadImage("./Images/Grove Street Modern.png");
+  broomeOld = loadImage("./Images/Broome St.png");
+  broomeNew = loadImage("./Images/Broome St Modern.png");
+  barAndGrillOld = loadImage("./Images/Bar and Grill.png");
+  barAndGrillNew = loadImage("./Images/sput ready.png");
+  eastOld = loadImage("./Images/62 East.png");
+  eastNew = loadImage("./Images/62 East Modern.png");
+  song = loadSound("./Music/song 2.mp3");
+  oldBack = loadImage("./Images/old background.png");
+  newBack = loadImage("./Images/new background.png");
+  fontUsed = loadFont("./Fonts/basker.ttf");
+  fontUsedStatement = loadFont("./Fonts/Bodoni.ttf");
+  valOld = loadImage("./Images/valentine old.png");
+  valNew = loadImage("./Images/valentine new.png");
 }
 
 function setup() {
   //Creates Picture Frame.
-  let frame = createImg("/Images/picture frame.png", "picture frame");
+  let frame = createImg("./Images/picture frame.png", "picture frame");
   frame.position(220, 0);
   //Creating canvas
   let board = createCanvas(700, 700);
